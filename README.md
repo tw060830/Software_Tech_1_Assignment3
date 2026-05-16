@@ -58,6 +58,11 @@ macro_project/
 |   |-- console_app.py
 |   |-- main.py
 |-- .gitignore
+|-- error_1.pdf
+|-- error_2.pdf
+|-- error_3.pdf
+|-- IMPLEMENTATION_SUMMARY.md
 |-- MANUAL_TESTING.md
 |-- README.md
 |-- requirements.txt
+|-- successful_run.pdf
