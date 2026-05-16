@@ -11,7 +11,7 @@ class ConsoleApp:
     def _prompt_dataset_path(self) -> Path:
         """Ask the user for a dataset root directory and validate it."""
         while True:
-            raw = input("Enter the path to your dataset folder: ").strip()
+            raw = input("Enter the path to a class: ").strip()
             if not raw:
                 print("  Path cannot be empty. Please try again.")
                 continue
@@ -124,7 +124,7 @@ class ConsoleApp:
     def _action_predict_image(self) -> None:
         """Option 4 — Predict the class of a single image."""
         print("\n--- Predict Image Class ---")
-        image_path = input("  Enter image path: ").strip()
+        image_path = input("  Enter an image path: ").strip()
         try:
             self.workflow_service.predict_image(image_path)
         except FileNotFoundError as error:
@@ -175,7 +175,7 @@ class ConsoleApp:
         menu = (
             "\n  Macroinvertebrate Image Analysis System",
             "  " + "=" * 42,
-            "   1. Show dataset summary (choose classes)",
+            "   1. Show dataset summary",
             "   2. Generate EDA outputs",
             "   3. Train baseline classifier",
             "   4. Predict an image",
