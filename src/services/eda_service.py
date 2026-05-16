@@ -41,7 +41,7 @@ class EDAService:
 
         return {
             "total_images": int(len(self.dataframe)),
-            "total_classes": int(self.dataframe["label"].nunique()),
+            "total_classes": int(self.dataframe["Label"].nunique()),
             "mean_width": float(self.dataframe["width"].mean()),
             "mean_height": float(self.dataframe["height"].mean()),
         }
