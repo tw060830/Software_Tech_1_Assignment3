@@ -25,7 +25,7 @@ baseline classifier, and provides a menu-driven console interface for image pred
 
 ## Installing Instructions
 1. Install dependencies with `pip install -r requirements.txt`
-2. Place the dataset inside `data/raw`
+2. Place the dataset of your choice inside `data/raw`
 
 ## How to Run Stage 1 and Stage 2 workflow, along with console menu application
 1. Run `python -m src.main`
@@ -35,7 +35,9 @@ baseline classifier, and provides a menu-driven console interface for image pred
    2. Generate EDA outputs
    3. Train baseline classifier
    4. Predict an image
-   5. Exit
+   5. Export dataset index to CSV
+   6. Show per-class image statistics
+   7. Exit
 
 ## Folder Structure
 ```
