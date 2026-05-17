@@ -103,7 +103,7 @@ codebase and can explain any part of the system during the Week 13 demonstration
 
 | Member      | Contribution                                                               |
 |-------------|----------------------------------------------------------------------------|
-| Brinda      | Brinda completed stage 1.                                                  |
-| Thisari     | Thisari completed stage 2.                                                 |
-| Dinara      | Dinara completed the console interface.                                    |
+| u3283819    | u3283819 completed stage 1.                                                  |
+| u3298510    | u3298510 completed stage 2.                                                 |
+| u3313774    | u3313774 completed the console interface.                                    |
 | All members | Completed the testing, README, Implementation Summary, and Manual_Testing. |

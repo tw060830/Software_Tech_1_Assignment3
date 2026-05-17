@@ -1,5 +1,10 @@
 # Macroinvertebrate Image Analysis System
 
+Students IDs:
+- u3283819
+- u3298510
+- u3313774
+
 ## Project Goal
 This project analyses the macroinvertebrate image data downloaded from Kaggle, which then generates exploratory data analysis outputs, trains a 
 baseline classifier, and provides a menu-driven console interface for image predictions.
