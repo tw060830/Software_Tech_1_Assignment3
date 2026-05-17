@@ -5,12 +5,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
 from sklearn.model_selection import train_test_split
-
 
 class ClassifierService:
     """Train, evaluate, and persist the baseline classification model."""
@@ -26,11 +23,14 @@ class ClassifierService:
 
     def prepare_features(self, dataframe: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
         """Convert indexed file paths into model features and labels."""
+
         features = []
         labels = []
+
         for _, row in dataframe.iterrows():
             features.append(self.preprocessor.transform(row["file_path"]))
             labels.append(row["label"])
+
         return np.array(features), np.array(labels)
 
     def train(self, dataframe: pd.DataFrame) -> dict[str, object]:
@@ -44,7 +44,7 @@ class ClassifierService:
         self.model.fit(X_train, y_train)
         predictions = self.model.predict(X_test)
 
-        # Generate visualizations
+        # Generate visualisations
         self._save_confusion_matrix(y_test, predictions)
         self._save_classification_report(y_test, predictions)
 

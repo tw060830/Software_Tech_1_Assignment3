@@ -94,7 +94,8 @@ The following outputs were generated during the project and are saved under the 
 <!-- TOC -->
 
 ## Reused or Adapted Code Acknowledgement
-The code provided in the `Assignment 3 Full Guidance and Coding Examples` was adapted and used to complete this project.
+The code provided in the `Assignment 3 Full Guidance and Coding Examples` was adapted and used to complete this project. Alongside this, the code 
+used in the `console_app.py` was adapted from the use of GitHub Copilot.
 
 ## Work Division Summary
 Work was divided across the three group members according to the recommended structure in the assignment guidance. All members reviewed the complete 

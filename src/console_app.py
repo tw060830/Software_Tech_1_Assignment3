@@ -44,6 +44,7 @@ class ConsoleApp:
         list[str]
             The class names chosen by the user.
         """
+
         print(f"\n  Found {len(available)} classes:")
         for idx, name in enumerate(available, start=1):
             print(f"    {idx:>3}. {name}")

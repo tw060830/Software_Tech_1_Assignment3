@@ -24,7 +24,7 @@ baseline classifier, and provides a menu-driven console interface for image pred
 | joblib        | save and load trained model artifacts                   |
 
 ## Installing Instructions
-1. Install dependencies with `pip install -r requirements.txt`
+1. Install the required python packages by running `pip install -r requirements.txt`
 2. Place the dataset of your choice inside `data/raw`
 
 ## How to Run Stage 1 and Stage 2 workflow, along with console menu application

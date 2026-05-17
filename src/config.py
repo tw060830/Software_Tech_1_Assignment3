@@ -1,5 +1,7 @@
 from pathlib import Path
 
+"""This configuration file centralises all path and setting constants, making it east to reference directories and settings."""
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
@@ -9,5 +11,3 @@ MODEL_OUTPUT_DIR = OUTPUTS_DIR / "models"
 IMAGE_SIZE = (128, 128)
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp"}
 
-"""This configuration file centralises all path and setting constants, 
-making it east ti reference directories and settings."""
